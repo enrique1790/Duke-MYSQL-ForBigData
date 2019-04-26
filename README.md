@@ -26,7 +26,7 @@ Having: The HAVING clause was added to SQL because the WHERE keyword could not b
 Order (BY) - This field or list; in [ASC | DESC] order.
 Distinct:  eliminate all the duplicate records and fetching only unique records.
 AS: The AS clause allows you to assign an alias (a temporary name) to a table or a column in a table.
-IS Not Null: query to only select rows that do not have null values
+IS Not Null: query to only select rows that do not have null values & records
 Upper: all of the distinct breed names in UPPER case
 Operations : Arithmetic | Comparison | Logical | Operators used to negate conditions
 
@@ -60,6 +60,7 @@ Some basic rules are:
 
 [Operators]
 NOT - The NOT operator reverses the meaning of the logical operator with which it is used. Eg: NOT EXISTS, NOT BETWEEN, NOT IN, etc. This is a negate operator
+ON - Tell the database how to connect the tables using an ON clause that comes right after the FROM clause
 AND - The AND operator is a logical operator that combines two conditions and returns TRUE only if both condition evaluate to TRUE . The AND operator is often used in the WHERE clause of the SELECT, UPDATE, DELETE statement to form conditions to filter the result set.
 OR - a logical operator that combines two conditions, but it returns TRUEwhen either of the conditions is TRUE.
 Note: You can also combine AND and OR to create complex conditional expressions.
