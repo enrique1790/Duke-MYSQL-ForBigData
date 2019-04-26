@@ -22,8 +22,8 @@ From: These database and tables
 
 Where: WHERE- is used with SELECT statement to extract only those records that fulfill specified conditions.
 Group (By) - The GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns.
-Having: The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
-Order (BY) - This field or list; in [ASC | DESC] order.
+Having: The HAVING clause was added to SQL because the WHERE keyword could not be used to specify conditions for aggregate functions.
+Order (BY) - This field values/records or list; in [ASC | DESC] order.
 Distinct:  eliminate all the duplicate records and fetching only unique records.
 AS: The AS clause allows you to assign an alias (a temporary name) to a table or a column in a table.
 IS Not Null: query to only select rows that do not have null values & records
